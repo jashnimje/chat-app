@@ -1,13 +1,15 @@
 
 import './App.css';
+import Sidebar from './Sidebar';
+import Chat from './Chat';
+
 // BEM Naming System
 function App() {
   return (
     <div className="app">
-      <h1>Lets build Chat App</h1>
       <div className="app__body">
-        {/* Sidebar */}
-        {/* Chat */}
+        <Sidebar />
+        <Chat />
       </div>
     </div>
   );
